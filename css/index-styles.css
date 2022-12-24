@@ -46,3 +46,29 @@
     width: 5.2em;
     letter-spacing: 0.1em;
 }
+
+.rightBarContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightBarTabs{
+    position: relative;
+    color: white;
+    width: 27em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2.6vw;
+}
+
+.history, .racial_identity, .celebrity_status, .legacy {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: rbg(221,221,221);
+    font-family: "izayoi";
+    position: relative;
+    padding: 0 6px;
+}
