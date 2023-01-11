@@ -5,26 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tiger Woods Homepage</title>
-    <link rel="stylesheet" type="text/css" href="index-styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<script src="js/custom.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/index-styles.css">
 </head>
 <body>
-    <div class="headerBar">
-        <div class="leftBarContainer">
-            <a class="logoContainer" href=".">
-                <div class="logoImageContainer">
-                    <img class="logoImage" src="tiger-images/homepage/website-logo.png">
+    <div id="masters-background">
+        <header>
+            <nav class="home-nav">
+                <div class="space-between">
+                    <div class="logo" img src="website-logo.png">The Image of Tiger Woods</div>
+                    <!--fix website logo-->
+                    <ul class="nav-list">
+                        <a href="history.html"><li>History</li></a>
+                        <a href="racial_identity.html"><li>Racial Identity</li></a>
+                        <a href="celebrity_status.html"><li>Celebrity Status</li></a>
+                        <a href="legacy.html"><li>Legacy</li></a>
+                    </ul>
                 </div>
-                <div class="logoTiger">The Image of Tiger Woods</div>
-            </a>
-        </div>
-        <div class="rightBarContainer">
-            <div class="rightBarTabs">
-                <a class="history" href="#">HISTORY</a>
-                <a class="racial_identity" href="#">RACIAL IDENTITY</a>
-                <a class="celebrity_status" href="#">CELEBRITY STATUS</a>
-                <a class="legacy" href="#">LEGACY</a>
-            </div>
+            </nav>
+        </header>
+        <div id="masters-caption">
+            <!--create caption for background image
+            "Woods celebrates after winning the 2019 Masters
+            tournament"-->
         </div>
     </div>
+    <div id="body wrap">
+        <div id="woods-icon"></div>
+        <div id="controversies"></div>
+        <div id="return-glory"></div>
+        <div id="thesis"></div>
+        <div id="analysis"></div>
+        <div id="credits"></div>
+    </div>
+    <footer>
+        <!--Include name, class name, class professor, project name-->
+    </footer>
 </body>
 </html>
