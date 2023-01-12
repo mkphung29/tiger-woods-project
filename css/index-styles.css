@@ -25,7 +25,7 @@ header{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header, .intro, footer{
+header, .intro{
     display: flex;
     width: 100%;
     align-self: stretch;
@@ -400,3 +400,42 @@ h2{
     font-size: 18px;
 }
 
+/* Images and Media */
+#credits h2{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#credits h4{
+    font-size: 20px;
+    color: #1f2938;
+}
+
+.image-container{
+    width: 2000px;
+    height: 600px;
+    /* border: 3px solid #f7601b; */
+    background: linear-gradient(180deg, #f7691b, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* footer */
+footer{
+    display: flex;
+    width: 100%;
+    align-self: stretch;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url('../tiger-images/homepage/glory.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #f9faf8;
+}
+
+.footer-list{
+    display: flex;
+    gap: 180px;
+}
