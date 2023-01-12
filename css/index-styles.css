@@ -223,7 +223,7 @@ h2{
     padding: 20px;
     /* border: 3px solid #f7601b; */
     border-radius: 20px;
-    background: url('/tiger-images/homepage/press\ conference.jpeg');
+    background: url('/tiger-images/homepage/press-conference.jpeg');
     background-position: center 0px;
     background-size: cover;
     display: flex;
@@ -306,4 +306,94 @@ h2{
     padding: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* analysis breakdown */
+#analysis{
+    height: 130vh;
+    gap: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url('../tiger-images/homepage/analysis.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#analysis h2{
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+
+.analysis-cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    flex-direction: -reverse;
+    flex-flow: row wrap;
+    position: relative;
+}
+
+.analysis-card{
+    justify-content: column;
+    gap: 400px;
+    max-width: 500px;
+    color: #1f293700;
+}
+
+.top-layer, .bottom-layer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.history-image, .identity-image, .celebrity-image, .legacy-image{
+    width: 500px;
+    height: 400px;
+    gap: 400px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.history-image{
+    background-image: url('/tiger-images/history/pioneers.png');
+}
+
+.identity-image{
+    background-image: url('/tiger-images/racial-identity/parents.png');
+}
+
+.celebrity-image{
+    background-image: url('/tiger-images/celebrity-status/scandal1.png');
+}
+
+.legacy-image{
+    background-image: url('/tiger-images/legacy/iron-throne.png');
+}
+
+.captions{
+    display: flex;
+    gap: 32px;
+}
+
+.analysis-caption{
+    background-image: linear-gradient(180deg, #191818, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    max-width: 500px;
+    height: 175px;
+    text-align: center;
+    padding: 10px;
+}
+
+.analysis-info, h5{
+    color: #e5e7eb;
+    font-size: 18px;
 }
