@@ -25,16 +25,13 @@ header{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header, .intro{
+header, .intro, footer{
     display: flex;
     width: 100%;
     align-self: stretch;
     align-items: center;
     justify-content: space-around;
     flex-flow: row wrap;
-}
-
-header, .intro, footer{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url('../tiger-images/homepage/celebration.jpeg') no-repeat center center fixed;
     background-size: cover;
     color: #f9faf8;
@@ -200,10 +197,15 @@ h2{
 }
 
 /* Controversies section*/
+#controversies{
+    padding: 50px;
+}
+
 #controversies h2{
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
+    padding: 15px;
 }
 
 h2{
@@ -230,7 +232,7 @@ h2{
 
 .intro2-card{
     width: 800px;
-    height: 400px;
+    height: 430px;
     /* border: 3px solid #f7601b; */
     background: linear-gradient(180deg, #f7691b, rgba(0, 0, 0, 0));
     border-radius: 20px;
@@ -247,4 +249,61 @@ h2{
 
 .contro-card h6{
     margin-top: -255px;
+}
+
+/* Return to glory */
+
+#return-glory{
+    height: 60vh;
+    gap: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-flow: column wrap;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url('../tiger-images/homepage/glory.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.glory-container{
+    margin: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-flow: column wrap;
+    text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 20px white;
+}
+
+.glory-container h6{
+    margin-top: 0px;
+
+}
+
+/* thesis section */
+#thesis{
+    padding: 30px;
+}
+
+#thesis h2{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.textbox{
+    width: 2000px;
+    height: 190px;
+    /* border: 3px solid #f7601b; */
+    background: linear-gradient(180deg, #f7691b, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+}
+
+.thesis-statement{
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
