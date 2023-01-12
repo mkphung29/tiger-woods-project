@@ -328,6 +328,8 @@ h2{
     font-weight: bolder;
     font-style: italic;
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .analysis-cards{
@@ -397,3 +399,4 @@ h2{
     color: #e5e7eb;
     font-size: 18px;
 }
+
