@@ -84,7 +84,6 @@ a{
     align-self: stretch;
     align-items: center;
     justify-content: space-between;
-    background-color: #121212;
     color: #f9faf8;
     flex-flow: column wrap; 
 
@@ -113,9 +112,8 @@ a{
     text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 20px white;
 }
 
-.pioneers-caption h5{
-    display: flex;
-    justify-content: center;
+.disclaimer{
+    background-color: #C3073F;
 }
 
 .disclaimer-text{
@@ -123,6 +121,71 @@ a{
 }
 
 
+.content{
+    background-color: #121212;
+    width: 100%;
+}
+
+/* black roles */
+
+.black-roles{
+    flex-wrap: wrap;
+    padding: 64px;
+}
+
+#roles-intro{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+
+.roles-card{
+    width: 800px;
+    height: 500px;
+    /* border: 3px solid #f7601b; */
+    border-radius: 20px;
+    background: url('/tiger-images/history/1800sgolf.jpeg');
+    background-position: center 0px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.info-card{
+    width: 800px;
+    height: 550px;
+    /* border: 3px solid #f7601b; */
+    background: linear-gradient(180deg, #f7691b, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+}
+
+.roles-info{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-caption{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 20px white;
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-card h2{
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+}
+
+.card-caption h6{
+    margin-top: -10px;
+}
 
 /* footer */
 footer{
