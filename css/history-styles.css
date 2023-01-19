@@ -338,9 +338,105 @@ a{
     }
   }
 
-  
+/* Pioneers cards */
+.pioneer-layer{
+    background-color: #121212;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
 
-  .footer{
+.pioneer-info-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 2.5em;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+.pioneer-cards{
+    transition: 0.3s;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0px;
+}
+
+.pioneer-cards img{
+    border-radius: 5px 5px 0 0;
+    width: 14.5em;
+    height: 16em;
+    object-fit: cover;
+    box-shadow: 0 10px 30px black;
+    transition: 0.3s;
+}
+
+.pioneer-wheeler{
+    transition: 0.3s;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0px;
+}
+
+.pioneer-wheeler img{
+    border-radius: 5px 5px 0 0;
+    width: 14.5em;
+    height: 16em;
+    box-shadow: 0 10px 30px black;
+    transition: 0.3s;
+}
+
+.pioneer-card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.pioneer-info{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    margin: 1em 0 1 em 0;
+    z-index: 2;
+    width: 12em;
+    height: 24em;
+    background: linear-gradient(180deg, #f7691b, rgba(0, 0, 0, 0));
+}
+
+.shippen{
+    font-size: 22px;
+}
+
+.wheeler{
+    font-size: 16px;
+}
+
+.rhodes{
+    font-size: 17px;
+}
+
+.sifford{
+    font-size: 14px;
+}
+
+.elder{
+    font-size: 14px;
+}
+
+
+
+
+
+/* footer */
+
+.footer {
     display: flex;
     width: 100%;
     align-self: stretch;
