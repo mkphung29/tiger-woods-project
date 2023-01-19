@@ -665,6 +665,34 @@ a{
     margin-bottom: 50px;
 }
 
+/* final analysis */
+.final-analysis{
+    background-color: #121212;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.analysis-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    padding: 40px;
+}
+
+.analysis-left{
+    font-size: 24pt;
+    font-style: italic;
+    text-align: center;
+}
+
+.analysis-right{
+    background-color:#f7691b;
+    font-size: 18pt;
+    border-radius: 50px;
+    height: 450px;
+    padding: 20px;
+}
 
 
 /* footer */
