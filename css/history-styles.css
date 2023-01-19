@@ -667,7 +667,8 @@ a{
 
 /* final analysis */
 .final-analysis{
-    background-color: #121212;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url('../tiger-images/homepage/analysis-background.png') no-repeat center center fixed;
+    background-size: cover;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -694,6 +695,40 @@ a{
     padding: 20px;
 }
 
+/* credits */
+#credits{
+    background-color: #121212;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#credits h2{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#credits h4{
+    font-size: 20px;
+    color: #1f2938;
+}
+
+.image-section{
+    display: flex;
+    justify-content: center;
+}
+
+.image-container{
+    width: 2000px;
+    height: 1200px;
+    background: linear-gradient(180deg, #f7691b, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* footer */
 
