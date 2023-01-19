@@ -39,9 +39,9 @@ header, .intro{
 }
 
 
-.logo{
+.left-links{
     font-size: 24px;
-    font-family: "kawashiro";
+    margin-top: 5px;
     text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 20px white;
 }
 
@@ -93,9 +93,9 @@ a{
 .intro-text{
     margin-left: 15%;
     display: flex;
+    text-align: center;
     flex-flow: column wrap;
     flex: 1;
-    align-content: center;
 }
 
 .main h1{
