@@ -490,7 +490,6 @@ a{
     margin-left: -3px;
 }
 
-/*Adjusting box of all content*/
 .text-wrapper{
     padding: 10px 40px;
     position: relative;
@@ -510,33 +509,32 @@ a{
     border-radius: 50%;
     z-index: 1;
 }
-/*for left events*/
+
 .left{
     left: 33%;
 }
-/*for right events*/
+
 .right{
     left:50%;
 }
 .right::after{
     left:-10px;
 }
-/*content box colour padding 
-and radius for circular corner*/
+
 .content{
     padding: 15px 15px 15px 10px;
     background-color: #f7691b;
     border-radius: 4px;
     width: 250px;
 }
-/*setting text property of event heading*/
+
 .content h3{
     text-transform: uppercase;
     font-size: 14px;
     color: #212121;
     letter-spacing:1px;
 }
-/*setting text property of event content*/
+
 .content p{
     color: #212121;
     font-weight: 300;
@@ -552,6 +550,39 @@ and radius for circular corner*/
     display: flex;
     justify-content: center;
 }
+
+/* two worlds collide */
+.world-collision{
+    background-color: #121212;
+    color: white;
+}
+
+.world-collision h2{
+    margin-top: 100px;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.world-collision p{
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+    padding: 40px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+
 
 
 
