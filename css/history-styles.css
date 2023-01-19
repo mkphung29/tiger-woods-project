@@ -582,12 +582,57 @@ a{
     margin-bottom: 50px;
 }
 
+/* Woods vs Peete */
+.woods-peete{
+    background-color:#121212;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 24pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.wp-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 30px;
+}
 
+.peete-image img{
+    border-radius: 50%;
+    background-size: cover;
+    width: 8em;
+    height: 8em;
+}
 
+.woods-image img{
+    border-radius: 50%;
+    width: 8em;
+    height: 8em;
+}
 
+.wp-info-woods, .wp-info-peete{
+    background-color:#f7691b;
+    border-radius: 100px;
+    text-align: center;
+}
 
+.wp-info-woods{
+    padding: 10px;
+}
 
+.wp-info-peete p{
+    padding: 40px;
+}
+
+.wp-right-woods{
+    margin-top: 30px;
+}
+
+.wp-right-peete{
+    margin-top: -10px;
+}
 
 
 /* footer */
