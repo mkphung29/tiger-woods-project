@@ -113,7 +113,8 @@ a{
 }
 
 .disclaimer{
-    background-color: #C3073F;
+    background-color: #f7691b;
+    opacity: 75%;
 }
 
 .disclaimer-text{
@@ -353,7 +354,7 @@ a{
     margin: 0 2.5em;
     flex-wrap: wrap;
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 
@@ -430,8 +431,34 @@ a{
     font-size: 14px;
 }
 
+/* color line */
+.color-line{
+    background-color: #121212;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 
+.line-card{
+    width: 800px;
+    height: 500px;
+    /* border: 3px solid #f7601b; */
+    border-radius: 20px;
+    background: url('/tiger-images/history/pgacolorline.jpeg');
+    background-position: center 0px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 150px;
+}
 
+.color-line .info-card{
+    padding: 20px;
+    font-size: 21px;
+}
 
 
 /* footer */
