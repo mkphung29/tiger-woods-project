@@ -5,6 +5,7 @@ body{
     align-items: center;
     padding: 0px;
     margin: 0px;
+    width: 100%;
 }
 
 /* header and introduction */
@@ -122,7 +123,7 @@ a{
 }
 
 
-.content{
+.main-content{
     background-color: #121212;
     width: 100%;
 }
@@ -459,6 +460,103 @@ a{
     padding: 20px;
     font-size: 21px;
 }
+
+/* integration timeline */
+.timeline-heading{
+    background-color:#121212;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 30pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.integration-timeline{
+    background-color: #121212;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    position: relative;
+}
+
+.integration-timeline::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    background-color: #f7691b;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+/*Adjusting box of all content*/
+.text-wrapper{
+    padding: 10px 40px;
+    position: relative;
+    width:51%;
+    box-sizing: border-box;
+    margin: 50px 0;
+}
+.text-wrapper::after{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    left: 350px;
+    right: -10px;
+    background-color:orangered;
+    top:15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+/*for left events*/
+.left{
+    left: 33%;
+}
+/*for right events*/
+.right{
+    left:50%;
+}
+.right::after{
+    left:-10px;
+}
+/*content box colour padding 
+and radius for circular corner*/
+.content{
+    padding: 15px 15px 15px 10px;
+    background-color: #f7691b;
+    border-radius: 4px;
+    width: 250px;
+}
+/*setting text property of event heading*/
+.content h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #212121;
+    letter-spacing:1px;
+}
+/*setting text property of event content*/
+.content p{
+    color: #212121;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+.content img{
+    border-radius: 5px 5px 0 0;
+    width: 14.5em;
+    height: 16em;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
 
 
 /* footer */
