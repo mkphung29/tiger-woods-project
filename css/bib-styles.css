@@ -110,3 +110,24 @@ a{
     background-color: #121212;
     width: 100%;
 }
+
+
+
+/* footer */
+
+footer{
+    display: flex;
+    width: 100%;
+    align-self: stretch;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url('../tiger-images/homepage/analysis-background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #f9faf8;
+}
+
+.footer-list{
+    display: flex;
+    gap: 180px;
+}
