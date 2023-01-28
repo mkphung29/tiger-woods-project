@@ -1,0 +1,205 @@
+body{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+/* header and introduction */
+header{
+    display: flex;
+    width: 100%;
+    align-self: stretch;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    gap: 15%;
+
+}
+
+.intro{
+    height: 45vh;
+    gap: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, .intro{
+    display: flex;
+    width: 100%;
+    align-self: stretch;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url('../tiger-images/legacy/iron-throne.png') no-repeat top fixed;
+    background-size: cover;
+    color: #f9faf8;
+}
+
+
+.left-links{
+    font-size: 24px;
+    margin-top: 5px;
+    text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 20px white;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+header ul{
+    display: flex;
+    gap: 80px;
+    
+}
+
+ul{
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li{
+    list-style: none;
+    font-size: 18px;
+    text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 20px white;
+}
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content: space-between;
+    color: #f9faf8;
+    flex-flow: column wrap; 
+
+}
+
+.intro-text{
+    margin-left: 15%;
+    display: flex;
+    text-align: center;
+    flex-flow: column wrap;
+    flex: 1;
+}
+
+.main h1{
+    font-size: 75px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    text-shadow: 0 0 0.8em rgb(255 255 255);
+    margin-bottom: 80px;
+}
+
+.main-content{
+    background-color: #121212;
+    width: 100%;
+}
+
+
+
+
+/* final analysis */
+.final-analysis{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url('../tiger-images/homepage/analysis-background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.analysis-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    padding: 40px;
+}
+
+.analysis-left{
+    font-size: 24pt;
+    font-style: italic;
+    text-align: center;
+}
+
+.analysis-right{
+    background-color:#FFFFF0;
+    color:#121212;
+    font-size: 18pt;
+    border-radius: 50px;
+    height: 450px;
+    padding: 20px;
+}
+
+/* credits */
+#credits{
+    background-color: #121212;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#credits h2{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#credits h4{
+    font-size: 20px;
+    color: #1f2938;
+}
+
+#credits p{
+    color: #1f2938;
+}
+
+.image-section{
+    display: flex;
+    justify-content: center;
+}
+
+.image-container{
+    width: 2000px;
+    height: 400px;
+    background-color:#E5E4E2;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    width: 100%;
+    align-self: stretch;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url('../tiger-images/homepage/analysis-background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #f9faf8;
+}
+
+.footer-list{
+    display: flex;
+    gap: 180px;
+}
