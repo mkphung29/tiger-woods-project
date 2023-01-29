@@ -111,7 +111,50 @@ a{
     width: 100%;
 }
 
+/* ethnic composition */
+.ethnic-composition{
+    background-color: #121212;
+    padding: 20px;
+}
 
+.ethnic-composition h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.ethnic-container{
+    background-color: white;
+    display: flex;
+    justify-content: center left;
+    padding: 10px;
+}
+
+.earl-chart img{
+    height: 400px;
+    width: 600px;
+    margin-left: 60px;
+}
+
+.tida-chart img{
+    height: 400px;
+    width: 500px;
+    margin-left: 180px;
+}
+
+.tiger-chart img{
+    height: 600px;
+    width: 700px;
+    margin-left: 40px;
+}
+
+.ethnic-sources{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
 
 
 /* final analysis */
