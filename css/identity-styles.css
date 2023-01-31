@@ -254,7 +254,7 @@ a{
 }
 
 .early-stance h2{
-    margin-top: 100px;
+    margin-top: 150px;
     animation: fadeIn ease 5s;
     -webkit-animation: fadeIn ease 5s;
     -moz-animation: fadeIn ease 5s;
@@ -365,6 +365,7 @@ a{
     width: 363px;
     height: 300px;
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
+    margin-bottom: 100px;
 }
 
 .card-info h5{
@@ -437,7 +438,7 @@ a{
 }
 
 .colorblindness h2{
-    margin-top: 100px;
+    margin-top: 150px;
     animation: fadeIn ease 5s;
     -webkit-animation: fadeIn ease 5s;
     -moz-animation: fadeIn ease 5s;
@@ -472,6 +473,7 @@ a{
 .zoeller-tilghman h2{
     font-size: 20pt;
     text-align: center;
+    margin-top: 100px;
 }
 
 .ZT-container{
@@ -504,6 +506,7 @@ a{
 
 /* nike ads transition */
 .nike-ads{
+    margin-top: 150px;
     color: white;
 }
 
@@ -542,7 +545,7 @@ a{
     width: 800px;
     height: 690px;
     color: white;
-    background: linear-gradient(180deg, c, rgba(0, 0, 0, 0));
+    background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
     font-size: 20px;
     padding: 20px;
