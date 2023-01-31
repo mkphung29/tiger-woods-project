@@ -241,7 +241,7 @@ a{
   }
   
   .flip-card-back {
-    background-color: #F7CAC9;
+    background-color: #50C878;
     color: #121212;
     transform: rotateY(180deg);
     padding: 10px;
@@ -412,7 +412,7 @@ a{
     z-index: 2;
     width: 12em;
     height: 24em;
-    background: linear-gradient(180deg, #F7CAC9, rgba(0, 0, 0, 0));
+    background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
 }
 
 .shippen{
