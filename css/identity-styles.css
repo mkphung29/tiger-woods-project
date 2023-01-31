@@ -501,6 +501,36 @@ a{
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0)); 
 }
 
+/* nike ads transition */
+.nike-ads{
+    color: white;
+}
+
+.nike-ads h2{
+    margin-top: 100px;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.nike-ads p{
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+    padding: 40px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
 
 /* final analysis */
 .final-analysis{
