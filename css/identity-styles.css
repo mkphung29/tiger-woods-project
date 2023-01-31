@@ -531,6 +531,51 @@ a{
     margin-bottom: 50px;
 }
 
+/* i am tiger woods */
+.one-section, .two-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.one-info, .two-info{
+    width: 800px;
+    height: 690px;
+    color: white;
+    background: linear-gradient(180deg, c, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.two-info{
+    width: 800px;
+    height: 1050px;
+    margin-top: 350px;
+}
+
+.one-vid{
+    margin-top: 50px;
+}
+
+.two-vid{
+    margin-top: 200px;
+}
+
+.vid-caption{
+    width: 800px;
+    height: 800px;
+    color: white;
+    background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 150px;
+}
+
 
 /* final analysis */
 .final-analysis{
