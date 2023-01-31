@@ -406,7 +406,27 @@ a{
     margin-bottom: 50px;
 }
 
+/* oprah */
+.oprah-container{
+    display: flex;
+    justify-content: space-around;
+}
 
+.oprah-info{
+    width: 800px;
+    height: 690px;
+    color: white;
+    background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.oprah-vid{
+    margin-top: 50px;
+}
 
 
 /* final analysis */
