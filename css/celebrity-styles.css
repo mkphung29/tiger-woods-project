@@ -252,6 +252,68 @@ a{
     margin-bottom: 100px;
 }
 
+/* family man */
+.family-man{
+    flex-wrap: wrap;
+    padding: 60px;
+    color: white;
+}
+
+.family-cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+.family-image{
+    width: 800px;
+    height: 500px;
+    /* border: 3px solid #f7601b; */
+    border-radius: 20px;
+    background: url('/tiger-images/celebrity-status/family.png');
+    background-position: center 0px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.family-info{
+    width: 800px;
+    height: 500px;
+    color: white;
+    background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.family-man h2{
+    font-size: 36px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.family-info p{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.family-caption{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 20px white;
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.family-caption h6{
+    margin-top: -10px;
+}
+
 /* final analysis */
 .final-analysis{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url('../tiger-images/homepage/analysis-background.png') no-repeat center center fixed;
