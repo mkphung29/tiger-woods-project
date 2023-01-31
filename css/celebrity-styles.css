@@ -447,6 +447,36 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* reality tv */
+.reality-tv h2{
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tv-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.tv-info{
+    width: 800px;
+    height: 650px;
+    color: white;
+    background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+
+.tv-vid{
+    margin-top: 150px;
+}
 
 
 /* final analysis */
