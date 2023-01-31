@@ -187,7 +187,70 @@ a{
   }
 
 /* tiger brands */ 
+.tiger-brand{
+    color: white;
+}
 
+.brand-container h2{
+    margin-top: 50px;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.top-brands{
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-brands img{
+    height: 600px;
+    width: 540px;
+}
+
+.taghuer .brand-info, .gatorade .brand-info{
+    width: 500px;
+    height: 200px;
+    color: white;
+    background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    font-size: 18pt;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.bottom-brands{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-brands img{
+    height: 600px;
+    width: 800px;
+}
+
+.buick .brand-info, .gillette .brand-info{
+    width: 760px;
+    height: 200px;
+    color: white;
+    background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    font-size: 18pt;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
 
 /* final analysis */
 .final-analysis{
