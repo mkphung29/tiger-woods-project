@@ -573,6 +573,51 @@ a{
     margin-top: -10px;
 }
 
+/* one drop rule */
+.one-drop h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+.drop-vid{
+    display: flex;
+    justify-content: center;
+}
+
+.vid-caption h4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 20px white;
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.drop-container{
+    display: flex;
+    justify-content: center;
+}
+
+.drop-info{
+    color: white;
+    background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    height: 650px;
+    width: 2000px;
+    font-size: 18pt;
+}
+
+/* augusta */ 
+
+
 /* final analysis */
 .final-analysis{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url('../tiger-images/homepage/analysis-background.png') no-repeat center center fixed;
