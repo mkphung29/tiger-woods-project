@@ -360,11 +360,11 @@ a{
 
 .fall-image{
     width: 800px;
-    height: 500px;
+    height: 800px;
     /* border: 3px solid #f7601b; */
     border-radius: 20px;
-    background: url('/tiger-images/celebrity-status/elin.png');
-    background-position: center 0px;
+    background: url('/tiger-images/celebrity-status/cheated.png');
+    background-position: bottom;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -386,12 +386,19 @@ a{
 
 .fall-info{
     width: 800px;
-    height: 300px;
+    height: 400px;
     color: white;
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+.fall-info h2{
+    font-size: 36px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .fall-info p{
@@ -509,7 +516,62 @@ a{
     text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 20px white;
 }
 
+/* revisiting race */
+.revisit-race h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 50px;
+}
+.revisit-container, .revisit-container-two{
+    display: flex;
+    justify-content: space-around;
+}
 
+.revisit-image img{
+    height: 700px;
+    width: 600px;
+}
+
+.revisit-info-one{
+    width: 800px;
+    height: 600px;
+    font-size: 22pt;
+}
+
+.revisit-info-one, .revisit-info-two{
+    color: white;
+    background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+.revisit-info-two{
+    width: 800px;
+    height: 650px;
+    font-size: 20px;
+}
+
+.revisit-caption{
+    text-align: center;
+}
+
+.revisit-caption h5{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 20px white;
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.revisit-caption h6{
+    margin-top: -10px;
+}
 
 /* final analysis */
 .final-analysis{
