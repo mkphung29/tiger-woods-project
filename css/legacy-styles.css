@@ -312,7 +312,71 @@ a{
 }
 
 /* trump */
+.trump{
+    flex-wrap: wrap;
+    padding: 60px;
+    color: white;
+}
 
+.trump-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    margin-top: 100px;
+}
+
+.trump-image{
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+    background: url('/tiger-images/legacy/donaldtrump.jpeg');
+    background-position: center 0px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+
+.trump-info{
+    width: 1000px;
+    height: 870px;
+    color: white;
+    background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+}
+
+.trump-info h2{
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trump-info p{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trump-caption{
+    width: 800px;
+}
+
+.trump-caption h5, .trump-caption h6{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 20px white;
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trump-caption h6{
+    margin-top: -10px;
+    text-align: center;
+}
 
 /* final analysis */
 .final-analysis{
