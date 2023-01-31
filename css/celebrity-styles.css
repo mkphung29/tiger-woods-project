@@ -478,6 +478,38 @@ a{
     margin-top: 150px;
 }
 
+/* pop culture */
+.pop-culture{
+    height: 75vh;
+    gap: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-flow: column wrap;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) , url('../tiger-images/celebrity-status/magazine-covers.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #f9faf8;
+    font-size: 24px;
+    margin-top: 300px;
+}
+
+.culture-container{
+    background:  #121212;
+    opacity: 75%;
+}
+
+.culture-container h2,.culture-container h5, .culture-container p{
+    margin: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-flow: column wrap;
+    text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 20px white;
+}
+
+
 
 /* final analysis */
 .final-analysis{
