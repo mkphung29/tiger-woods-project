@@ -350,6 +350,105 @@ a{
     margin-top: -10px;
 }
 
+/* fall from grace */
+.fall-container{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fall-image{
+    width: 800px;
+    height: 500px;
+    /* border: 3px solid #f7601b; */
+    border-radius: 20px;
+    background: url('/tiger-images/celebrity-status/elin.png');
+    background-position: center 0px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.fall-caption h5{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 20px white;
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fall-caption h6{
+    margin-top: -10px;
+}
+
+.fall-info{
+    width: 800px;
+    height: 300px;
+    color: white;
+    background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.fall-info p{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* three factors */
+.factors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.factors-intro{
+    width: 1100px;
+    height: 100px;
+    color: white;
+    background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.factor-one, .factor-two, .factor-three, .fall-closing{
+    width: 1000px;
+    height: 200px;
+    color: white;
+    background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+.fall-closing{
+    width: 1000px;
+    height: 300px;
+    color: white;
+    background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.factor-one p, .factor-two p, .factor-three p, .fall-closing p{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
 /* final analysis */
 .final-analysis{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url('../tiger-images/homepage/analysis-background.png') no-repeat center center fixed;
