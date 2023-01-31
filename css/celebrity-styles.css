@@ -284,7 +284,7 @@ a{
     color: white;
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 180px;
 }
 
 .family-man h2{
@@ -311,6 +311,42 @@ a{
 }
 
 .family-caption h6{
+    margin-top: -10px;
+}
+
+/* obama */
+.obama-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.obama-one, .obama-two{
+    width: 600px;
+    height: 300px;
+    color: white;
+    background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.obama p{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.obama-caption{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 20px white;
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.obama-caption h6{
     margin-top: -10px;
 }
 
