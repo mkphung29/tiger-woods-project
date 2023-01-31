@@ -126,6 +126,7 @@ a{
 
 .ethnic-container{
     background-color: white;
+    border-radius: 10px;
     display: flex;
     justify-content: center left;
     padding: 10px;
@@ -193,6 +194,7 @@ a{
     font-size: 36px;
     font-style: italic;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .sensationalized-info p{
@@ -214,6 +216,39 @@ a{
 .sensationalized-caption h6{
     margin-top: -10px;
 }
+
+/* tv show */
+.tw-show{
+    padding: 20px;
+}
+
+.tv-show h2{
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tv-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 250px;
+}
+
+.tv-info{
+    width: 800px;
+    height: 650px;
+    color: white;
+    background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+
 
 
 /* final analysis */
