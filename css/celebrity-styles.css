@@ -610,13 +610,47 @@ a{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
+    margin-bottom: 50px;
     height: 650px;
     width: 2000px;
     font-size: 18pt;
 }
 
 /* augusta */ 
+.augusta-container{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
 
+.augusta-image{
+    width: 800px;
+    height: 500px;
+    /* border: 3px solid #f7601b; */
+    border-radius: 20px;
+    background: url('/tiger-images/celebrity-status/augusta.png');
+    background-position: center 0px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.augusta-info{
+    width: 900px;
+    height: 620px;
+    color: white;
+    background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.augusta-info p{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* final analysis */
 .final-analysis{
