@@ -218,10 +218,6 @@ a{
 }
 
 /* tv show */
-.tw-show{
-   padding: 20px;
-}
-
 .tv-show h2{
     font-size: 36px;
     font-style: italic;
@@ -232,7 +228,7 @@ a{
 .tv-container{
     display: flex;
     justify-content: space-around;
-    gap: 250px;
+    gap: 20px;
 }
 
 .tv-info{
@@ -245,6 +241,11 @@ a{
     padding: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+
+.tv-vid{
+    margin-top: 150px;
 }
 
 /* early stance */
