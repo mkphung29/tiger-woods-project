@@ -111,6 +111,10 @@ a{
     width: 100%;
 }
 
+sup a{
+    color: black;
+}
+
 /* ethnic composition */
 .ethnic-composition{
     background-color: #121212;
@@ -184,7 +188,7 @@ a{
 
 .sensationalized-info{
     width: 800px;
-    height: 600px;
+    height: 650px;
     color: white;
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
