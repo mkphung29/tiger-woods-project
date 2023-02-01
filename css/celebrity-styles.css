@@ -492,8 +492,7 @@ a{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
-    flex-flow: column wrap;
+    align-items: center;
     width: 100%;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) , url('../tiger-images/celebrity-status/magazine-covers.png') no-repeat center center fixed;
     background-size: cover;
@@ -505,14 +504,16 @@ a{
 .culture-container{
     background:  #121212;
     opacity: 75%;
+    text-align: center;
 }
 
 .culture-container h2,.culture-container h5, .culture-container p{
-    margin: 150px;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-flow: column wrap;
+    flex-direction: column;
+    text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 20px white;
+}
+
+.culture-container p{
     text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 20px white;
 }
 
