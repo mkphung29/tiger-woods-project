@@ -131,6 +131,9 @@ a{
     width: 100%;
 }
 
+sup a{
+    color: #50C878;
+}
 
 /* black roles intro */
 
@@ -191,6 +194,10 @@ a{
 
 .card-caption h6{
     margin-top: -10px;
+}
+
+.roles-info sup a{
+    color: black;
 }
 
 /* black roles examples*/
@@ -264,6 +271,10 @@ a{
 
 .flip-card .demas-quote{
     font-style: italic;
+}
+
+.flip-card-back sup a{
+    color: white;
 }
 
 /* black pioneers introduction */
@@ -435,6 +446,10 @@ a{
     font-size: 14px;
 }
 
+.pioneer-info sup a{
+    color: black;
+}
+
 /* color line */
 .color-line{
     background-color: #121212;
@@ -543,6 +558,10 @@ a{
     font-weight: 300;
     font-size: 18px;
     margin-top: 2px;
+}
+
+.content sup a{
+    color:black;
 }
 
 .content img{
