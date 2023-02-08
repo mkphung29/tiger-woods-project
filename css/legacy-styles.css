@@ -21,7 +21,7 @@ header{
 }
 
 .intro{
-    height: 45vh;
+    height: 60vh;
     gap: 32px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -91,7 +91,6 @@ a{
 }
 
 .intro-text{
-    margin-left: 15%;
     display: flex;
     text-align: center;
     flex-flow: column wrap;
@@ -213,8 +212,8 @@ a{
 }
 
 .decline-info{
-    width: 1000px;
-    height: 700px;
+    width: 55vw;
+    height: 95vh;
     color: white;
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
@@ -278,7 +277,7 @@ a{
 }
 
 .tweet-image{
-    width: 1500px;
+    width: 90vw;
     height: 800px;
     border-radius: 20px;
     background: url('/tiger-images/legacy/twitter.png');
@@ -335,15 +334,17 @@ a{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin-top: 100px;
+    margin-bottom: 5vh;
+
 }
 
 .trump-info{
-    width: 1000px;
-    height: 870px;
+    width: 90vw;
+    height: 90vh;
     color: white;
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
+    padding: 20px;
 }
 
 .trump-info h2{
@@ -390,7 +391,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-bottom: 100px;
+    margin-bottom: 10vh;
     padding: 40px;
 }
 
@@ -405,7 +406,7 @@ a{
     color:#121212;
     font-size: 18pt;
     border-radius: 50px;
-    height: 450px;
+    height: 55vh;
     padding: 20px;
 }
 
@@ -440,7 +441,7 @@ a{
 }
 
 .image-container{
-    width: 2000px;
+    width: 90%;
     height: 400px;
     background-color:#E5E4E2;
     border-radius: 20px;
