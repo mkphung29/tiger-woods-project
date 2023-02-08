@@ -14,13 +14,20 @@ Each page displays different parts of my analysis, which includes:
 
 -Bibliography: Sources for research
 
-Here is my final site:
+Here is the homepage:
 
+<img width="1111" alt="homepage" src="https://user-images.githubusercontent.com/109439396/217610564-4a4c585e-dfe9-4ddd-b96c-06d297488b26.png">
 
+Videos of my site can be accessed here:
 
+[Homepage.mov.zip](https://github.com/mkphung29/tiger-woods-project/files/10688382/Homepage.mov.zip)
 
+[historypage.mov.zip](https://github.com/mkphung29/tiger-woods-project/files/10688371/historypage.mov.zip)
 
+[racial-identity.mov.zip](https://github.com/mkphung29/tiger-woods-project/files/10688392/racial-identity.mov.zip)
 
+[celebrity-status.mov.zip](https://github.com/mkphung29/tiger-woods-project/files/10688401/celebrity-status.mov.zip)
 
+[legacy.mov.zip](https://github.com/mkphung29/tiger-woods-project/files/10688403/legacy.mov.zip)
 
-
+[bibliography.mov.zip](https://github.com/mkphung29/tiger-woods-project/files/10688405/bibliography.mov.zip)
