@@ -91,7 +91,6 @@ a{
 }
 
 .intro-text{
-    margin-left: 15%;
     display: flex;
     text-align: center;
     flex-flow: column wrap;
@@ -234,13 +233,14 @@ a{
 }
 
 .bottom-brands img{
-    height: 600px;
-    width: 800px;
+    height: 40vh;
+    width: 30vw;
+    margin-left: 3%;
 }
 
 .buick .brand-info, .gillette .brand-info{
-    width: 760px;
-    height: 200px;
+    width: 30vw;
+    height: 20vh;
     color: white;
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
@@ -318,11 +318,12 @@ a{
 .obama-container{
     display: flex;
     justify-content: space-around;
+    padding: 20px;
 }
 
 .obama-one, .obama-two{
-    width: 600px;
-    height: 300px;
+    width: 25vw;
+    height: 40vh;
     color: white;
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
@@ -356,12 +357,12 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 10vh;
 }
 
 .fall-image{
-    width: 800px;
-    height: 800px;
-    /* border: 3px solid #f7601b; */
+    width: 40vw;
+    height: 80vh;
     border-radius: 20px;
     background: url('/tiger-images/celebrity-status/cheated.png');
     background-position: bottom;
@@ -369,6 +370,10 @@ a{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+
+.fall-caption{
+    text-align: center;
 }
 
 .fall-caption h5{
@@ -382,11 +387,13 @@ a{
 
 .fall-caption h6{
     margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 20px white;
 }
 
 .fall-info{
-    width: 800px;
-    height: 400px;
+    width: 50vw;
+    height: 60vh;
     color: white;
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
@@ -402,7 +409,7 @@ a{
 }
 
 .fall-info p{
-    font-size: 20px;
+    font-size: 1.5em;
     padding: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -466,11 +473,12 @@ a{
     display: flex;
     justify-content: space-around;
     gap: 20px;
+    padding: 30px;
 }
 
 .tv-info{
-    width: 800px;
-    height: 650px;
+    width: 60vw;
+    height: 75vh;
     color: white;
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
@@ -575,6 +583,10 @@ a{
 }
 
 /* one drop rule */
+.one-drop{
+    padding: 20px;
+}
+
 .one-drop h2{
     text-align: center;
     font-size: 40px;
@@ -612,9 +624,10 @@ a{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
     margin-bottom: 50px;
-    height: 650px;
-    width: 2000px;
+    height: 85vh;
+    width: 90%;
     font-size: 18pt;
+    margin-bottom: 15vh;
 }
 
 /* augusta */ 
@@ -625,9 +638,8 @@ a{
 }
 
 .augusta-image{
-    width: 800px;
-    height: 500px;
-    /* border: 3px solid #f7601b; */
+    width: 50vw;
+    height: 50vh;
     border-radius: 20px;
     background: url('/tiger-images/celebrity-status/augusta.png');
     background-position: center 0px;
@@ -638,8 +650,8 @@ a{
 }
 
 .augusta-info{
-    width: 900px;
-    height: 620px;
+    width: 40vw;
+    height: 90vh;
     color: white;
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
@@ -680,7 +692,7 @@ a{
     color:#121212;
     font-size: 18pt;
     border-radius: 50px;
-    height: 450px;
+    height: 55vh;
     padding: 20px;
 }
 
@@ -715,8 +727,8 @@ a{
 }
 
 .image-container{
-    width: 2000px;
-    height: 700px;
+    width: 90vw;
+    height: 85vh;
     background-color:#E5E4E2;
     border-radius: 20px;
     padding: 20px;
