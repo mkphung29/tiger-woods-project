@@ -1,3 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+}
+
+
 body{
     display: flex;
     flex-flow: column wrap;
@@ -8,9 +18,9 @@ body{
 }
 
 /* header and introduction */
-header{
+.header{
     display: flex;
-    width: 100%;
+    width: 100vw;
     align-self: stretch;
     align-items: center;
     justify-content: space-around;
@@ -19,19 +29,21 @@ header{
 
 }
 
-.intro{
-    height: 100vh;
-    gap: 32px;
-    font-family: Arial, Helvetica, sans-serif;
+.noPadding{
+    padding: 0px;
 }
 
-header, .intro{
+.intro{
+    height: 100vh;
+    gap: 32vh;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    width: 100%;
+    width: 100vw;
     align-self: stretch;
     align-items: center;
-    justify-content: space-around;
-    flex-flow: row wrap;
+}
+
+.header, .intro{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url('../tiger-images/homepage/celebration.jpeg') no-repeat center center fixed;
     background-size: cover;
     color: #f9faf8;
@@ -52,7 +64,7 @@ p{
     margin-inline-end: 0px;
 }
 
-header ul{
+.header ul{
     display: flex;
     gap: 80px;
     
@@ -87,6 +99,7 @@ a{
     background-color: #121212;
     color: #f9faf8;
     flex-flow: column wrap; 
+    width: 100vw;
 
 }
 
@@ -261,7 +274,7 @@ h2{
     justify-content: flex-end;
     align-items: flex-end;
     flex-flow: column wrap;
-    width: 100%;
+    width: 100vw;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url('../tiger-images/homepage/glory.png') no-repeat center center fixed;
     background-size: cover;
     color: #f9faf8;
@@ -294,8 +307,8 @@ h2{
 }
 
 .textbox{
-    width: 2000px;
-    height: 190px;
+    width: 90vw;
+    height: 25vh;
     /* border: 3px solid #f7601b; */
     background: linear-gradient(180deg, #F7CAC9, rgba(0, 0, 0, 0));
     border-radius: 20px;
@@ -314,7 +327,7 @@ h2{
     height: 130vh;
     gap: 32px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
+    width: 100vw;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url('../tiger-images/homepage/analysis.png') no-repeat center center fixed;
     background-size: cover;
     color: #f9faf8;
@@ -418,19 +431,18 @@ h2{
 }
 
 .image-container{
-    width: 2000px;
-    height: 600px;
     background-color:#E5E4E2;
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 10px;
+    padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 50px;
+    width: 90vw;
 }
 
 /* footer */
-footer{
+.footer{
     display: flex;
-    width: 100%;
+    width: 100vw;
     align-self: stretch;
     align-items: center;
     justify-content: space-around;
@@ -443,4 +455,40 @@ footer{
 .footer-list{
     display: flex;
     gap: 180px;
+}
+
+/* For mobile phones */
+[class*="col-"]{
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 600px){
+    .col-1{ width: 8.33%;}
+    .col-2{ width: 16.66%;}
+    .col-3{ width: 25%;}
+    .col-4{ width: 33.33%;}
+    .col-5{ width: 41.66%;}
+    .col-6{ width: 50.%;}
+    .col-7{ width: 58.33%;}
+    .col-8{ width: 66.66%;}
+    .col-9{ width: 75%;}
+    .col-10{ width: 83.33%;}
+    .col-11{ width: 91.66%;}
+    .col-12{ width: 100%;}
+}
+
+@media only screen and (min-width: 768px){
+    .col-1{ width: 8.33%;}
+    .col-2{ width: 16.66%;}
+    .col-3{ width: 25%;}
+    .col-4{ width: 33.33%;}
+    .col-5{ width: 41.66%;}
+    .col-6{ width: 50.%;}
+    .col-7{ width: 58.33%;}
+    .col-8{ width: 66.66%;}
+    .col-9{ width: 75%;}
+    .col-10{ width: 83.33%;}
+    .col-11{ width: 91.66%;}
+    .col-12{ width: 100%;}
 }
