@@ -1,3 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+}
+
 body{
     display: flex;
     flex-flow: column wrap;
@@ -5,39 +14,42 @@ body{
     align-items: center;
     padding: 0px;
     margin: 0px;
-    width: 100%;
+    width: 100vh;
+    background-color:#121212;
 }
 
 /* header and introduction */
-header{
+.header{
     display: flex;
-    width: 100%;
-    align-self: stretch;
-    align-items: center;
-    justify-content: space-around;
-    flex-flow: row wrap;
+    width: 100vh;
     gap: 15%;
 
+}
+
+.noPadding{
+    padding: 0px;
 }
 
 .intro{
     height: 45vh;
     gap: 32px;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-header, .intro{
     display: flex;
-    width: 100%;
     align-self: stretch;
     align-items: center;
-    justify-content: space-around;
-    flex-flow: row wrap;
+}
+
+.header, .intro{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url('../tiger-images/history/pioneers.png') no-repeat center center fixed;
     background-size: cover;
     color: #f9faf8;
+    width: 100vw;
 }
 
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
 
 .left-links{
     font-size: 24px;
@@ -53,7 +65,7 @@ p{
     margin-inline-end: 0px;
 }
 
-header ul{
+.header ul{
     display: flex;
     gap: 80px;
     
@@ -86,12 +98,12 @@ a{
     align-items: center;
     justify-content: space-between;
     color: #f9faf8;
-    flex-flow: column wrap; 
+    flex-flow: column wrap;
+    width: 100vw; 
 
 }
 
 .intro-text{
-    margin-left: 15%;
     display: flex;
     text-align: center;
     flex-flow: column wrap;
@@ -138,21 +150,19 @@ sup a{
 /* black roles intro */
 
 .black-roles{
-    flex-wrap: wrap;
     padding: 64px;
 }
 
-#roles-intro{
+.roles-intro{
     display: flex;
     justify-content: space-around;
-    gap: 80px;
+    margin-bottom: 10vh;
 }
 
 
 .roles-card{
-    width: 800px;
-    height: 500px;
-    /* border: 3px solid #f7601b; */
+    width: 45vw;
+    height: 50vh;
     border-radius: 20px;
     background: url('/tiger-images/history/1800sgolf.jpeg');
     background-position: center 0px;
@@ -163,15 +173,14 @@ sup a{
 }
 
 .info-card{
-    width: 800px;
-    height: 550px;
-    /* border: 3px solid #f7601b; */
+    width: 75vh;
+    height: 60vh;
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
 }
 
 .roles-info{
-    font-size: 20px;
+    font-size: 1.4em;
     padding: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -201,24 +210,29 @@ sup a{
 }
 
 /* black roles examples*/
+.roles-examples{
+    background-color:#121212;
+    width: 100vw;
+    height: 190vh;
+}
+
 .roles-examples h2{
     text-align: center;
 }
 
-.top-examples, .bottom-examples{
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.examples{
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 20vh;
 }
 
 .flip-card {
     background-color: transparent;
-    width: 800px;
-    height: 500px;
+    width: 40vw;
+    height: 70vh;
     border-radius: 50px;
     perspective: 1000px; 
+    display: flex;
   }
   
   .flip-card-inner {
@@ -236,8 +250,8 @@ sup a{
   
   .flip-card-front, .flip-card-back {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 40vw;
+    height: 70vh;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
   }
@@ -281,10 +295,13 @@ sup a{
 .black-pioneers{
     background-color: #121212;
     color: white;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10vh;
 }
 
 .black-pioneers h2{
-    margin-top: 100px;
+    margin-top: 10vh;
     animation: fadeIn ease 5s;
     -webkit-animation: fadeIn ease 5s;
     -moz-animation: fadeIn ease 5s;
@@ -360,18 +377,8 @@ sup a{
     color: white; 
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
+    margin-bottom: 10vh;
 }
-
-.pioneer-info-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 0 2.5em;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-bottom: 150px;
-}
-
 
 .pioneer-cards{
     transition: 0.3s;
@@ -384,8 +391,8 @@ sup a{
 
 .pioneer-cards img{
     border-radius: 5px 5px 0 0;
-    width: 14.5em;
-    height: 16em;
+    width: 20vw;
+    height: 24em;
     object-fit: cover;
     box-shadow: 0 10px 30px black;
     transition: 0.3s;
@@ -402,8 +409,8 @@ sup a{
 
 .pioneer-wheeler img{
     border-radius: 5px 5px 0 0;
-    width: 14.5em;
-    height: 16em;
+    width: 20vw;
+    height: 24em;
     box-shadow: 0 10px 30px black;
     transition: 0.3s;
 }
@@ -413,6 +420,7 @@ sup a{
 }
 
 .pioneer-info{
+    border-radius: 5px 5px 0 0;
     text-align: center;
     padding: 20px;
     color: white;
@@ -421,29 +429,9 @@ sup a{
     font-size: 1em;
     margin: 1em 0 1 em 0;
     z-index: 2;
-    width: 12em;
+    width: 20vw;
     height: 24em;
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
-}
-
-.shippen{
-    font-size: 22px;
-}
-
-.wheeler{
-    font-size: 16px;
-}
-
-.rhodes{
-    font-size: 17px;
-}
-
-.sifford{
-    font-size: 14px;
-}
-
-.elder{
-    font-size: 14px;
 }
 
 .pioneer-info sup a{
@@ -458,12 +446,14 @@ sup a{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    gap: 7%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 .line-card{
-    width: 800px;
+    width: 50vw;
     height: 500px;
-    /* border: 3px solid #f7601b; */
     border-radius: 20px;
     background: url('/tiger-images/history/pgacolorline.jpeg');
     background-position: center 0px;
@@ -476,7 +466,7 @@ sup a{
 
 .color-line .info-card{
     padding: 20px;
-    font-size: 21px;
+    font-size: 1.1em;
 }
 
 /* integration timeline */
@@ -495,6 +485,7 @@ sup a{
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     position: relative;
+    margin-bottom: 20vh;
 }
 
 .integration-timeline::after{
@@ -529,7 +520,7 @@ sup a{
 }
 
 .left{
-    left: 33%;
+    margin-left: 10.5%;
 }
 
 .right{
@@ -577,10 +568,13 @@ sup a{
 .world-collision{
     background-color: #121212;
     color: white;
+    width: 100vh;
+    margin-left: 5%;
+    margin-bottom: 10vh;
 }
 
 .world-collision h2{
-    margin-top: 100px;
+    margin-top: 10vh;
     animation: fadeIn ease 5s;
     -webkit-animation: fadeIn ease 5s;
     -moz-animation: fadeIn ease 5s;
@@ -598,10 +592,9 @@ sup a{
     -moz-animation: fadeIn ease 5s;
     -o-animation: fadeIn ease 5s;
     -ms-animation: fadeIn ease 5s;
-    padding: 40px;
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 50px;
+    margin-bottom: 20vh;
 }
 
 /* Woods vs Peete */
@@ -610,15 +603,15 @@ sup a{
     color: white;
     width: 100%;
     text-align: center;
-    font-size: 24pt;
+    font-size: 1.8em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .wp-container{
     display: flex;
-    justify-content: space-around;
-    gap: 50px;
-    padding: 30px;
+    justify-content: flex-start;
+    gap: 5%;
+    margin-left: -35%;
 }
 
 .peete-image img{
@@ -638,6 +631,8 @@ sup a{
     background-color:#50C878;
     border-radius: 100px;
     text-align: center;
+    height: 30vh;
+    width: 70vw;
 }
 
 .wp-info-woods{
@@ -660,6 +655,7 @@ sup a{
 .representation{
     background-color: #121212;
     color: white;
+    width: 100%;
 }
 
 .representation h2{
@@ -669,10 +665,10 @@ sup a{
     -moz-animation: fadeIn ease 5s;
     -o-animation: fadeIn ease 5s;
     -ms-animation: fadeIn ease 5s;
-    text-align: center;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
+    text-align: center;
 }
 
 .representation p{
@@ -682,9 +678,10 @@ sup a{
     -o-animation: fadeIn ease 5s;
     -ms-animation: fadeIn ease 5s;
     padding: 40px;
-    font-size: 24px;
+    font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 50px;
+    margin-bottom: 10vh;
+    width: 100vw;
 }
 
 /* final analysis */
@@ -693,13 +690,13 @@ sup a{
     background-size: cover;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
 }
 
 .analysis-container{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-bottom: 100px;
     padding: 40px;
 }
 
@@ -714,18 +711,19 @@ sup a{
     color:#121212;
     font-size: 18pt;
     border-radius: 50px;
-    height: 450px;
+    height: 52vh;
     padding: 20px;
 }
 
 /* credits */
 #credits{
     background-color: #121212;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
 }
 
 #credits h2{
@@ -749,8 +747,7 @@ sup a{
 }
 
 .image-container{
-    width: 2000px;
-    height: 1200px;
+    width: 100vw;
     background-color:#E5E4E2;
     border-radius: 20px;
     padding: 20px;
@@ -760,7 +757,7 @@ sup a{
 
 /* footer */
 
-footer{
+.footer{
     display: flex;
     width: 100%;
     align-self: stretch;
@@ -775,4 +772,39 @@ footer{
 .footer-list{
     display: flex;
     gap: 180px;
+}
+
+/* For mobile phones */
+[class*="col-"]{
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px){
+    .col-1{ width: 8.33%;}
+    .col-2{ width: 16.66%;}
+    .col-3{ width: 25%;}
+    .col-4{ width: 33.33%;}
+    .col-5{ width: 41.66%;}
+    .col-6{ width: 50.%;}
+    .col-7{ width: 58.33%;}
+    .col-8{ width: 66.66%;}
+    .col-9{ width: 75%;}
+    .col-10{ width: 83.33%;}
+    .col-11{ width: 91.66%;}
+    .col-12{ width: 100%;}
+}
+
+@media only screen and (min-width: 768px){
+    .col-1{ width: 8.33%;}
+    .col-2{ width: 16.66%;}
+    .col-3{ width: 25%;}
+    .col-4{ width: 33.33%;}
+    .col-5{ width: 41.66%;}
+    .col-6{ width: 50.%;}
+    .col-7{ width: 58.33%;}
+    .col-8{ width: 66.66%;}
+    .col-9{ width: 75%;}
+    .col-10{ width: 83.33%;}
+    .col-11{ width: 91.66%;}
+    .col-12{ width: 100%;}
 }
