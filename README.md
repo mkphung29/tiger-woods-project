@@ -14,7 +14,7 @@ Each page displays different parts of my analysis, which includes:
 
 -Bibliography: Sources for research
 
-Here is the site:
+## Here is the site
 
 <img width="400px" height="300px" alt="homepage" src="https://user-images.githubusercontent.com/109439396/217610564-4a4c585e-dfe9-4ddd-b96c-06d297488b26.png">
 
@@ -28,7 +28,7 @@ Here is the site:
 
 <img width="400px" height="300px" alt="bib" src="https://user-images.githubusercontent.com/109439396/217611585-651ec586-4227-4de2-9f84-5cab0bb4541f.png">
 
-Videos of my site can be accessed here:
+## Videos of my site can be accessed here
 
 [Homepage.mov.zip](https://github.com/mkphung29/tiger-woods-project/files/10688382/Homepage.mov.zip)
 
