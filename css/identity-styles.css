@@ -91,7 +91,6 @@ a{
 }
 
 .intro-text{
-    margin-left: 15%;
     display: flex;
     text-align: center;
     flex-flow: column wrap;
@@ -137,21 +136,21 @@ sup a{
 }
 
 .earl-chart img{
-    height: 400px;
-    width: 600px;
-    margin-left: 60px;
+    height: 20vw;
+    width: 45vh;
+    margin-left: 5%;
 }
 
 .tida-chart img{
-    height: 400px;
-    width: 450px;
-    margin-left: 180px;
+    height: 20vw;
+    width: 42vh;
+    margin-left: 40%;
 }
 
 .tiger-chart img{
-    height: 600px;
-    width: 750px;
-    margin-left: 40px;
+    height: 30vw;
+    width: 62vh;
+    margin-left: 10%;
 }
 
 .ethnic-sources{
@@ -159,6 +158,10 @@ sup a{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
+}
+
+.ethnic-sources a{
+    color: blue;
 }
 
 /* Sensationalized */
@@ -233,11 +236,12 @@ sup a{
     display: flex;
     justify-content: space-around;
     gap: 20px;
+    padding: 40px;
 }
 
 .tv-info{
-    width: 800px;
-    height: 650px;
+    width: 40vw;
+    height: 90vh;
     color: white;
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
@@ -249,7 +253,7 @@ sup a{
 }
 
 .tv-vid{
-    margin-top: 150px;
+    margin-top: 30vh;
 }
 
 /* early stance */
@@ -419,8 +423,8 @@ sup a{
 }
 
 .oprah-info{
-    width: 800px;
-    height: 690px;
+    width: 40vw;
+    height: 90vh;
     color: white;
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
@@ -428,10 +432,11 @@ sup a{
     padding: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
 }
 
 .oprah-vid{
-    margin-top: 50px;
+    margin-top: 30vh;
 }
 
 /* colorblindness */
@@ -455,8 +460,8 @@ sup a{
 }
 
 .colorblindness p{
-    width: 2000px;
-    height: 690px;
+    width: 90%;
+    height: 100vh;
     color: white;
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
@@ -543,11 +548,12 @@ sup a{
 .one-section, .two-section{
     display: flex;
     justify-content: space-around;
+    padding: 20px;
 }
 
 .one-info, .two-info{
-    width: 800px;
-    height: 690px;
+    width: 40vw;
+    height: 80vh;
     color: white;
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
@@ -555,25 +561,26 @@ sup a{
     padding: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10vh;
 }
 
 .two-info{
-    width: 800px;
-    height: 1050px;
-    margin-top: 350px;
+    width: 35vw;
+    height: 160vh;
+    margin-top: 10vh;
 }
 
 .one-vid{
-    margin-top: 50px;
+    margin-top: 20vh;
 }
 
 .two-vid{
-    margin-top: 200px;
+    margin-top: 10vh;
 }
 
 .vid-caption{
-    width: 800px;
-    height: 800px;
+    width: 55vh;
+    height: 95vh;
     color: white;
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
@@ -581,7 +588,8 @@ sup a{
     padding: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 150px;
+    margin-bottom: 10vh;
+    margin-left: 15%;
 }
 
 
@@ -612,7 +620,7 @@ sup a{
     color:#121212;
     font-size: 18pt;
     border-radius: 50px;
-    height: 450px;
+    height: 55vh;
     padding: 20px;
 }
 
@@ -647,8 +655,8 @@ sup a{
 }
 
 .image-container{
-    width: 2000px;
-    height: 700px;
+    width: 90vw;
+    height: 80vh;
     background-color:#E5E4E2;
     border-radius: 20px;
     padding: 20px;
