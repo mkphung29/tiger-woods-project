@@ -7,7 +7,6 @@
     padding: 15px;
 }
 
-
 body{
     display: flex;
     flex-flow: column wrap;
@@ -21,10 +20,6 @@ body{
 .header{
     display: flex;
     width: 100vw;
-    align-self: stretch;
-    align-items: center;
-    justify-content: space-around;
-    flex-flow: row wrap;
     gap: 15%;
 
 }
@@ -34,7 +29,7 @@ body{
 }
 
 .intro{
-    height: 100vh;
+    height: 75vh;
     gap: 32vh;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -49,6 +44,10 @@ body{
     color: #f9faf8;
 }
 
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
 
 .logo{
     font-size: 24px;
@@ -126,17 +125,15 @@ h1{
 }
 
 .masters-caption{
-    margin-right: 2%;
-    margin-bottom: -750px;
     text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 20px white;
+    margin-left: 40%;
 }
 
 .second-title{
     color: #e5e7eb;
     font-size: 18px;
     text-shadow: 0px 0px 5px black, 0px 0px 20px black, 0px 0px 20px white;
-    margin-left: 40px;
-    margin-bottom: 200px;
+    margin-left: 30px;
 }
 
 .masters-caption h5{
@@ -145,8 +142,8 @@ h1{
 }
 
 /* Icon section */
+
 #woods-icon{
-    flex-wrap: wrap;
     padding: 64px;
 }
 
@@ -168,14 +165,12 @@ h2{
 .cards{
     display: flex;
     justify-content: space-around;
-    flex-flow: row wrap;
     gap: 100px;
 }
 
 .intro-card{
     width: 800px;
-    height: 550px;
-    /* border: 3px solid #f7601b; */
+    height: 500px;
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
 }
@@ -192,7 +187,6 @@ h2{
     width: 800px;
     height: 500px;
     padding: 20px;
-    /* border: 3px solid #f7601b; */
     border-radius: 20px;
     background: url('/tiger-images/homepage/icon.png');
     background-position: center 0px;
@@ -246,7 +240,6 @@ h2{
 .intro2-card{
     width: 800px;
     height: 430px;
-    /* border: 3px solid #f7601b; */
     background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
 }
@@ -298,6 +291,8 @@ h2{
 /* thesis section */
 #thesis{
     padding: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 #thesis h2{
@@ -309,9 +304,10 @@ h2{
 .textbox{
     width: 90vw;
     height: 25vh;
-    /* border: 3px solid #f7601b; */
-    background: linear-gradient(180deg, #F7CAC9, rgba(0, 0, 0, 0));
+    background: linear-gradient(180deg, #50C878, rgba(0, 0, 0, 0));
     border-radius: 20px;
+    display: flex;
+    margin-bottom: 5vh;
 }
 
 .thesis-statement{
@@ -319,12 +315,11 @@ h2{
     padding: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 50px;
 }
 
 /* analysis breakdown */
 #analysis{
-    height: 130vh;
+    height: 70vh;
     gap: 32px;
     font-family: Arial, Helvetica, sans-serif;
     width: 100vw;
@@ -349,10 +344,6 @@ h2{
 .analysis-cards{
     display: flex;
     justify-content: space-around;
-    gap: 32px;
-    flex-direction: -reverse;
-    flex-flow: row wrap;
-    position: relative;
 }
 
 .analysis-card{
@@ -365,7 +356,6 @@ h2{
 .top-layer, .bottom-layer{
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
     gap: 50px;
 }
 
@@ -435,6 +425,7 @@ h2{
     border-radius: 10px;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
     margin-bottom: 50px;
     width: 90vw;
 }
