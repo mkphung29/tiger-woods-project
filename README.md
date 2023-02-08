@@ -14,9 +14,19 @@ Each page displays different parts of my analysis, which includes:
 
 -Bibliography: Sources for research
 
-Here is the homepage:
+Here is the site:
 
-<img width="1111" alt="homepage" src="https://user-images.githubusercontent.com/109439396/217610564-4a4c585e-dfe9-4ddd-b96c-06d297488b26.png">
+<img width="800px" height="600px" alt="homepage" src="https://user-images.githubusercontent.com/109439396/217610564-4a4c585e-dfe9-4ddd-b96c-06d297488b26.png">
+
+<img width="800px" height="600px" alt="history" src="https://user-images.githubusercontent.com/109439396/217611365-8e56b0fb-fdcf-4425-a70f-9653a40af6a0.png">
+
+<img width="800px" height="600px" alt="identity" src="https://user-images.githubusercontent.com/109439396/217611395-a11a5526-6c93-4d61-8788-c35419dd78ba.png">
+
+<img width="800px" height="600px" alt="celebrity" src="https://user-images.githubusercontent.com/109439396/217611411-084b1aa7-4d0c-4c41-998e-f3eea826610f.png">
+
+<img width="800px" height="600px" alt="legacy" src="https://user-images.githubusercontent.com/109439396/217611424-7ca113bc-1a9f-4253-9dcf-757bc014b37b.png">
+
+<img width="800px" height="600px" alt="bib" src="https://user-images.githubusercontent.com/109439396/217611585-651ec586-4227-4de2-9f84-5cab0bb4541f.png">
 
 Videos of my site can be accessed here:
 
